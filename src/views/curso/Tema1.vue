@@ -384,9 +384,30 @@
             p.pe-xl-3.mb-3.text-bold Capacidad de negociación
             span Equilibrar intereses diversos para alcanzar consensos sostenibles
 
-    .row.bg-verde-oscuro.bg-full-width.py-4.mb-4
+    .row.bg-verde-oscuro.bg-full-width.py-4.mb-5
       div.px-5
         p.mb-0.text-white El liderazgo en contextos organizacionales sostenibles es fundamental para enfrentar los desafíos del presente y del futuro empresarial. Formar líderes con una <b>visión integral</b> que combine <b>rentabilidad económica</b>, <b>responsabilidad social</b> y <b>protección ambiental</b> es clave para construir organizaciones <b>resilientes</b> y comprometidas con el <b>desarrollo sostenible</b>.
+
+    .bg-full-width.border-top-9-azul
+      .px-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://ve.scielo.org/scielo.php?script=sci_arttext&pid=S1315-99842007000300007") Estilos de liderazgo, toma de decisiones estratégicas y eficacia: un estudio empírico en pequeñas y medianas empresas
+            
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.researchgate.net/publication/381293962") El liderazgo ético en las empresas: la clave para transformar la rutina ordinaria en acciones extraordinarias
+            
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.academia.edu/74282340") Liderazgo y ética en la dirección de empresas: la nueva empresa del siglo XXI
+          
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
 
     p
     

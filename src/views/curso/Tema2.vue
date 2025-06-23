@@ -260,7 +260,7 @@
         .col-3.d-none.d-xl-block
           img(src='@/assets/curso/unidad/img-52.png', alt='Texto que describa la imagen')
 
-      .row.bg-marron.bg-full-width.py-4.mb-4
+      .row.bg-marron.bg-full-width.py-4.mb-5
         div.px-5.pb-md-3.py-4.d-flex
           .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
             h2.mb-4.pb-2.me-auto Estrategias de compromiso y mejora organizacional
@@ -270,6 +270,44 @@
               p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Estrategias de compromiso y mejora organizacional
           .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
             img.h-100(src='@/assets/curso/unidad/img-53.png', alt='Texto que describa la imagen')
+
+      .bg-full-width.border-top.actividad(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important')
+        .p-4.p-md-5
+          #Actividad
+            <Actividad :cuestionario='cuestionario'/>
+      
+      .bg-full-width.border-top-9-azul
+        .px-5.pt-5.pb-0
+          h2 Material complementario
+          .row
+            .col-12.col-md-6.col-lg-8
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://revistas.uclave.org/index.php/agora/article/download/4709/3040/4946") Análisis sistémico organizacional en un mundo incierto, complejo y transdisciplinario
+              
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://www.researchgate.net/publication/351472966_Clima_organizacional_y_motivacion_laboral_como_insumos_para_planes_de_mejora_institucional") Clima organizacional y motivación laboral como insumos para planes de mejora institucional
+              
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://ve.scielo.org/scielo.php?pid=S2739-00392024000200148&script=sci_arttext") Transformación organizacional mediante la formación y evaluación del desempeño
+              
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://retos-directivos.eae.es/conoce-las-etapas-basicas-del-ciclo-de-motivacion-laboral/") Etapas básicas del ciclo de motivación laboral
+              
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://www.webyempresas.com/ciclo-motivacional/") Ciclo Motivacional: ¿qué es y cuáles son sus etapas?
+              
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://milformatos.com/empresas-y-negocios/manual-de-funciones/") Manual de funciones: ejemplos, formatos Word, Excel
+            
+            .col-12.col-md-6.col-lg-3
+              figure
+                img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
 
       p
 
@@ -281,7 +319,7 @@ export default {
   name: 'Tema2',
   data: () => ({
     cuestionario: {
-      tema: 'Unidad 1',
+      tema: 'Gestión organizacional y liderazgo',
       titulo: 'Ponte a prueba',
       introduccion:
         'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
@@ -290,27 +328,27 @@ export default {
         {
           id: 1,
           texto:
-            '¿Qué define principalmente al liderazgo ético en una organización?',
+            '¿Cuál es el propósito principal de un manual de funciones y responsabilidades en una organización?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Imposición de normas estrictas',
+              texto: 'Promover la rotación de personal',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Búsqueda de ganancias rápidas',
+              texto: 'Establecer un sistema de incentivos salariales',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Actuar con integridad y responsabilidad social',
+              texto: 'Definir tareas, responsabilidades y roles específicos',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Delegar todas las decisiones importantes',
+              texto: 'Reducir los costos de producción',
               esCorrecta: false,
             },
           ],
@@ -320,29 +358,13 @@ export default {
         {
           id: 2,
           texto:
-            '¿Cuál es una característica fundamental de un equipo de trabajo efectivo?',
+            '¿Qué competencia blanda se asocia principalmente con la capacidad de entender y atender las emociones de otros?',
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Confianza mutua y comunicación abierta',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Supervisión constante del líder',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Competencia interna entre miembros',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Estructura jerárquica rígida',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Pensamiento lógico', esCorrecta: false },
+            { id: 'b', texto: 'Empatía', esCorrecta: true },
+            { id: 'c', texto: 'Planificación estratégica', esCorrecta: false },
+            { id: 'd', texto: 'Toma de decisiones', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -350,13 +372,29 @@ export default {
         {
           id: 3,
           texto:
-            '¿Qué tipo de poder se basa en la admiración y respeto que inspira un líder?',
+            '¿Cuál de las siguientes estrategias favorece la permanencia del talento humano en una empresa?',
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Poder legítimo', esCorrecta: false },
-            { id: 'b', texto: 'Poder de referencia', esCorrecta: true },
-            { id: 'c', texto: 'Poder coercitivo', esCorrecta: false },
-            { id: 'd', texto: 'Poder de recompensa', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Incrementar la carga laboral sin reconocimiento',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Establecer horarios inflexibles',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Implementar planes de carrera y desarrollo',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir la comunicación con los empleados',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -364,27 +402,24 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué estrategia es clave para gestionar conflictos de manera sostenible en una empresa?',
+            "¿Qué representa el 'ciclo motivacional' en el contexto organizacional?",
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Imponer sanciones a las partes involucradas',
+              texto: 'El proceso de pago de nómina',
               esCorrecta: false,
             },
-            {
-              id: 'b',
-              texto: 'Ignorar los problemas menores',
-              esCorrecta: false,
-            },
+            { id: 'b', texto: 'La jerarquía de la empresa', esCorrecta: false },
             {
               id: 'c',
-              texto: 'Facilitar la mediación entre las partes',
+              texto:
+                'El proceso desde la aparición de una necesidad hasta su satisfacción',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Permitir que el conflicto se resuelva solo con el tiempo',
+              texto: 'La estructura del organigrama',
               esCorrecta: false,
             },
           ],
@@ -394,28 +429,28 @@ export default {
         {
           id: 5,
           texto:
-            '¿Qué implica la toma de decisiones basada en la sostenibilidad empresarial?',
+            '¿Cuál es una función principal del liderazgo transformador en una organización?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Priorizar únicamente el beneficio económico',
+              texto: 'Ignorar las opiniones del equipo',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Considerar solo el impacto en el mercado local',
-              esCorrecta: false,
+              texto: 'Fomentar el cambio positivo e inspirar al equipo',
+              esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Favorecer decisiones rápidas sin análisis',
+              texto: 'Centrarse únicamente en resultados financieros',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Evaluar el impacto económico, social y ambiental',
-              esCorrecta: true,
+              texto: 'Mantener estructuras rígidas sin innovación',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
