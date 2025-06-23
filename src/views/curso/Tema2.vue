@@ -1,330 +1,275 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'2. Poder, autoridad y política en el liderazgo'")
+    BannerInterno(:subTitulo="'2. Pensamiento sistémico y motivación organizacional'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
-      p.mb-4 El liderazgo efectivo en el ámbito organizacional no puede comprenderse plenamente sin analizar las dinámicas de <b>poder, autoridad y política</b>. Estos elementos son fundamentales para entender cómo se toman decisiones, se ejerce la influencia y se configuran las relaciones dentro de las organizaciones.
-      ImagenInfografica.color-secundario.bg-white
-        template(v-slot:imagen)
-          figure
-            img(src='@/assets/curso/unidad/img-18.png', alt='Descripción de la imagen')
-        .tarjeta.bg-white.p-4(x='29.4%' y='70.3%' numero='+')
-          .h5.mb-2 1. Poder
-          p.mb-3 Es la capacidad de influir en el comportamiento de otros para alcanzar objetivos específicos. Se manifiesta en diferentes formas:
-          div.d-flex
-            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-            p <b>Poder legítimo:</b> basado en la posición jerárquica.
-          div.d-flex
-            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-            p <b>Poder de recompensa:</b> capacidad de otorgar beneficios.
-          div.d-flex
-            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-            p <b>Poder coercitivo:</b> capacidad de imponer sanciones.
-          div.d-flex
-            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-            p <b>Poder de referencia:</b> basado en la admiración y el respeto.
-          div.d-flex
-            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-            p <b>Poder experto:</b> sustentado en el conocimiento y la experiencia.
-        .tarjeta.bg-white.p-4(x='79.2%' y='51%' numero='+')
-          .h5.mb-2 2. Autoridad
-          p <b>Es el derecho legítimo</b> de ejercer poder y tomar decisiones. <b>Según Max Weber</b>, existen tres tipos:
-          div.d-flex
-            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-            p <b>Tradicional:</b> basada en costumbres y tradiciones.
-
-          div.d-flex
-            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-            p <b>Carismática:</b> derivada del carisma y cualidades personales del líder.
-          div.d-flex
-            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-            p <b>Legal-racional:</b> fundamentada en normas y procedimientos. Esta última es la más común en las organizaciones modernas por su estructura formal y definida.
-        .tarjeta.bg-white.p-4(x='26%' y='40%' numero='+')
-          .h5.mb-2 3. Política organizacional
-          p Son las acciones que las personas llevan a cabo para adquirir, desarrollar y usar el poder con fines personales o grupales. Aunque suele percibirse de forma negativa, puede ser una herramienta útil para manejar la complejidad organizacional y lograr objetivos estratégicos. Es fundamental que se practique con ética y transparencia para evitar conflictos y mantener un ambiente laboral saludable.
-      
-      .d-flex.bg-verde-oscuro.bg-full-width.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-        img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-19.svg', alt='Texto descriptivo de la imagen')
-        .my-auto.p-4.p-xl-0
-          p.pe-xl-3.mb-0.text-white Comprender la interacción entre estos elementos permite a los líderes <b>influir con efectividad, tomar decisiones acertadas y fomentar una cultura organizacional positiva.</b> Desarrollar habilidades para gestionar el poder, la autoridad y la política de forma ética contribuye al éxito de los equipos y de la organización en su conjunto.
-
-      .row.bg-fondo-1.bg-full-width.py-4.mb-4
-        div.px-5.pb-md-3
-      
-          #t_2_1.titulo-segundo(data-aos="flip-up")
-            div.d-flex
-              span.me-3 2.1
-              h2 Conceptos de poder, autoridad y su aplicación en las organizaciones
-
-          .row.mb-4
-            .col-3.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-20.png', alt='Texto que describa la imagen')
-            .col-12.col-xl-9
-              p.mb-4 El <b>poder y la autoridad</b> son conceptos clave en la administración de empresas, ya que determinan cómo se ejerce el control, la influencia y la legitimidad dentro de las organizaciones. Comprender estas nociones permite a los futuros profesionales <b>gestionar de manera efectiva los recursos humanos y estructurales</b>, fomentando entornos de trabajo más equitativos y eficaces.
-              h2 Poder en las organizaciones
-              .bg-azul.p-4(data-aos='fade-up')
-                span El poder es la <b>capacidad de influir en el comportamiento de otros</b> para alcanzar objetivos. Según <i>Max Weber</i>, es “la probabilidad de imponer la propia voluntad dentro de una relación social, aun contra toda resistencia”.
-
-          .row
-            .col-6.col-xl-4.mb-4(data-aos="zoom-in")
-              .d-flex.bg-verde.h-100.p-2.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-                img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-21.svg', alt='Texto descriptivo de la imagen')
-                .my-auto.p-4.p-xl-0
-                  p.pe-xl-3.mb-3.text-bold Coercitivo
-                  span Se basa en la capacidad de imponer <b>castigos o sanciones.</b>
-            .col-6.col-xl-4.mb-4(data-aos="zoom-in")
-              .d-flex.bg-verde.h-100.p-2.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-                img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-22.svg', alt='Texto descriptivo de la imagen')
-                .my-auto.p-4.p-xl-0
-                  p.pe-xl-3.mb-3.text-bold De recompensa
-                  span Deriva de la habilidad para otorgar <b>beneficios o incentivos.</b>
-            .col-6.col-xl-4.mb-4(data-aos="zoom-in")
-              .d-flex.bg-verde.h-100.p-2.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-                img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-23.svg', alt='Texto descriptivo de la imagen')
-                .my-auto.p-4.p-xl-0
-                  p.pe-xl-3.mb-3.text-bold Legítimo
-                  span Proviene de la <b>posición jerárquica</b> dentro de la organización.
-            .col-6.col-xl-4.mb-4(data-aos="zoom-in")
-              .d-flex.bg-verde.h-100.p-2.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-                img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-24.svg', alt='Texto descriptivo de la imagen')
-                .my-auto.p-4.p-xl-0
-                  p.pe-xl-3.mb-3.text-bold De referencia
-                  span Surge del <b>carisma o admiración</b> que inspira el líder.
-            .col-6.col-xl-8.mb-4(data-aos="zoom-in")
-              .d-flex.bg-verde.h-100.p-2.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-                img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-25.svg', alt='Texto descriptivo de la imagen')
-                .my-auto.p-4.p-xl-0
-                  p.pe-xl-3.mb-3.text-bold Experto
-                  span Se sustenta en el <b>conocimiento o habilidades especializadas</b> del líder.
-            
-      p.mb-4 Estas formas de poder no son excluyentes; muchas veces se combinan para lograr una mayor influencia organizacional.
-
-      h2 Autoridad en las organizaciones
-      p.mb-4 La autoridad es el <b>derecho legítimo</b> de ejercer poder y tomar decisiones dentro de una estructura formal. <i>Weber</i> identificó tres tipos ideales:
-
-      .row.bg-fondo-2.bg-full-width.py-4.mb-4
-        div.px-5.pb-md-3
-
-          .row.mb-4
-            .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-right")
-              div.custom-image-card.rounded-8px
-                img.mb-4(src='@/assets/curso/unidad/img-26.png', alt='Texto que describa la imagen')
-                div.mb-4
-                  p.text-bold.text-center Tradicional
-                  p.text-small.px-4.text-center.pb-2 Basada en costumbres y tradiciones arraigadas.
-            .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-up")
-              div.custom-image-card.rounded-8px
-                img.mb-4(src='@/assets/curso/unidad/img-27.png', alt='Texto que describa la imagen')
-                div.mb-4
-                  p.text-bold.text-center Carismática
-                  p.text-small.px-4.text-center.pb-2 Derivada de las cualidades personales del líder y su capacidad para generar lealtad.
-            .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-left")
-              div.custom-image-card.rounded-8px
-                img.mb-4(src='@/assets/curso/unidad/img-28.png', alt='Texto que describa la imagen')
-                div.mb-4
-                  p.text-bold.text-center Legal-racional
-                  p.text-small.px-4.text-center.pb-2 Fundada en normas formales y procedimientos establecidos. Predomina en las organizaciones modernas.
-
-          h2 Aplicación en las organizaciones
-
-          .row
-            .col-12.col-xl-7
-              .bg-verde-oscuro.p-4(data-aos='fade-up')
-                p.mb-4.text-white La interacción entre poder y autoridad es crucial para el funcionamiento organizacional. Mientras que el poder puede existir sin autoridad (por ejemplo, a través del conocimiento o del carisma), la autoridad implica siempre un reconocimiento formal y legítimo de ese poder.
-                span.text-white Un gerente puede tener la autoridad para asignar tareas (<b>poder legítimo</b>), pero su capacidad de influencia también dependerá de su <b>liderazgo experto</b> y del respeto que genera (<b>poder de referencia</b>).
-            .col-5.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-29.png', alt='Texto que describa la imagen')
-
-      .row.mb-4.bg-azul.p-4.py-xl-0(data-aos='fade-up')
-        .col-2.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-30.png', alt='Texto que describa la imagen')
-        .col-12.col-xl-10.d-flex.p-4.p-xl-0
-          .my-auto
-            p.mb-4 Entender esta dinámica ayuda a <b>prevenir abusos de poder</b> y a fomentar una <b>cultura organizacional ética</b>, donde la autoridad se ejerza con responsabilidad, y la influencia se construya sobre la base de la competencia, el respeto y la legitimidad.
-            span El dominio de estos conceptos permite a los futuros administradores liderar con efectividad, ética y legitimidad, construyendo ambientes donde la influencia se ejerce con responsabilidad y la autoridad es reconocida por su competencia real.
-
-      .row.bg-marron.bg-full-width.py-4.mb-4
-        div.px-5.pb-md-3.py-4.d-flex
-          .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
-            h2.mb-4.pb-2.me-auto Ejemplos prácticos: poder y autoridad en las organizaciones
-            p.mb-5(data-aos="fade-up") Se invita a leer el documento Ejemplos prácticos: poder y autoridad en las organizaciones, donde se aborda cómo se manifiestan distintas formas de poder y autoridad dentro de contextos organizacionales.
-            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/.pdf')" target="_blank")
-              img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
-              p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Ejemplos prácticos: poder y autoridad en las organizaciones
-          .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
-            img.h-100(src='@/assets/curso/unidad/img-31.png', alt='Texto que describa la imagen')
-
-      #t_2_2.titulo-segundo(data-aos="flip-up")
-        div.d-flex
-          span.me-3 2.2
-          h2 Influencia y manejo político en equipos de trabajo
-
-      p.mb-4 La <b>influencia y el manejo político</b> en los equipos son elementos clave en la administración de empresas, ya que afectan directamente la dinámica interna, la toma de decisiones y el logro de objetivos. Comprender estos conceptos permite a los futuros líderes desarrollar habilidades blandas fundamentales para actuar de forma ética y efectiva.
-
-      .row.position-relative.py-4.bg-fondo-slider.bg-full-width
-        div.px-4.px-md-5.py-md-3
-          SlyderA(tipo="b").bg-white
-            .row.p-4.px-md-5.py-lg-5.justify-content-between
-              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-                p.text-bold Influencia en equipos
-                p Es la capacidad de afectar percepciones, actitudes y comportamientos. Se ejerce mediante la <b>persuasión</b>, la <b>comunicación efectiva</b> y el <b>ejemplo personal</b>. Un líder influyente inspira confianza, motiva y fomenta la colaboración. <br><b>Ejemplo:</b> un líder que practica la <b>empatía y la escucha activa</b> mejora la moral del equipo, fortaleciendo el compromiso y la cohesión. Valorar las contribuciones individuales refuerza la implicación de los miembros.
-
-              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
-                figure
-                  img(src='@/assets/curso/unidad/img-32.png', alt='Texto que describa la imagen') 
-            .row.p-4.px-md-5.py-lg-5.justify-content-between
-              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-                p.text-bold Manejo político en equipos
-                p Consiste en el uso estratégico de <b>relaciones, poder y recursos</b> para alcanzar objetivos. En equipos, implica saber <b>navegar dinámicas de poder, gestionar conflictos de intereses y construir alianzas.</b> <br><b>Ejemplo:</b> en un proyecto interdepartamental con prioridades distintas y recursos limitados, un líder político negocia acuerdos, alinea intereses y asegura el respaldo necesario para avanzar sin generar fricciones.
-
-              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
-                figure
-                  img(src='@/assets/curso/unidad/img-33.png', alt='Texto que describa la imagen') 
-            .row.p-4.px-md-5.py-lg-5.justify-content-between
-              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-                p.text-bold Habilidades blandas requeridas
-                p Incluyen la <b>inteligencia emocional, comunicación asertiva, empatía y resolución de conflictos.</b> Estas competencias permiten tomar decisiones inclusivas y crear un ambiente de confianza y respeto mutuo. Comprender las motivaciones del equipo facilita una gestión más humana y efectiva.
-              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
-                figure
-                  img(src='@/assets/curso/unidad/img-34.png', alt='Texto que describa la imagen') 
-            .row.p-4.px-md-5.py-lg-5.justify-content-between
-              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-                p.text-bold Aplicación en casos prácticos 
-                p En un equipo de desarrollo de productos con desacuerdos sobre las prioridades del diseño, un líder influyente mediará entre posturas mediante <b>diálogo abierto y constructivo</b>. Al mismo tiempo, aplicará habilidades políticas para <b>equilibrar las demandas</b> de los departamentos involucrados, priorizando el beneficio general del proyecto.
-              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
-                figure
-                  img(src='@/assets/curso/unidad/img-35.png', alt='Texto que describa la imagen') 
-      .d-flex.bg-verde.p-4.flex-column.bg-full-width.flex-md-row.mb-4(data-aos='fade-up')
-        img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-36.svg', alt='Texto descriptivo de la imagen')
-        .my-auto.p-4.p-xl-0
-          p.pe-xl-3.mb-0 Comprender y aplicar la influencia y el manejo político en los equipos es fundamental para el éxito organizacional. Estas habilidades permiten liderar equipos diversos, resolver conflictos y consolidar una <b>cultura ética y colaborativa.</b>
-
-      #t_2_3.titulo-segundo(data-aos="flip-up")
-        div.d-flex
-          span.me-3 2.3
-          h2 El papel del liderazgo en la construcción de cultura organizacional y ética empresarial
-
-      p.mb-4 El liderazgo cumple un rol esencial en la formación de la <b>cultura organizacional</b> y en la promoción de una <b>ética empresarial sólida.</b> A través de sus decisiones y comportamientos, los líderes establecen normas, valores y principios que definen la identidad y el funcionamiento de una organización.
 
       .row.mb-4
-        .col-12.col-lg-7.col-xl-8
-          AcordionA(tipo="b")
-            .div(titulo="Influencia en la cultura organizacional")
-              p La cultura organizacional está compuesta por <b>valores, creencias y normas compartidas</b> que guían el comportamiento interno. Los líderes son modelos a seguir: sus acciones determinan la coherencia y dirección cultural. Un liderazgo ético y coherente genera un ambiente de <b>confianza y colaboración</b>; en cambio, la falta de integridad promueve <b>desconfianza y desmotivación.</b>
-            .div(titulo="Promoción de la ética empresarial")
-              p La ética empresarial implica aplicar <b>principios morales</b> en las decisiones y en la relación con los <i>stakeholders</i>. Los líderes éticos promueven la <b>transparencia, la responsabilidad social y el respeto a los derechos humanos</b>, fortaleciendo la <b>reputación y la sostenibilidad</b> de la organización.
-            .div(titulo="Habilidades blandas requeridas")
-              p Para impulsar una cultura ética, los líderes deben contar con <b>empatía, comunicación efectiva y capacidad para resolver conflictos.</b> Estas habilidades facilitan la toma de decisiones justas y centradas en el bienestar colectivo, consolidando un entorno laboral saludable y equitativo.
-            .div(titulo="Ejemplo práctico")
-              p Una empresa enfrenta una decisión crítica: <b>recortar costos o preservar empleos.</b> Un líder ético evalúa opciones como reducir jornadas o beneficios antes de recurrir a despidos. Esta acción demuestra <b>coherencia con los valores organizacionales, fortalece la confianza del personal</b> y refuerza una cultura basada en la responsabilidad social y el respeto por las personas.
-        .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
+        .col-4.d-none.d-xl-block
           img(src='@/assets/curso/unidad/img-37.png', alt='Texto que describa la imagen')
+        .col-12.col-xl-8
+          p.mb-4 En el entorno empresarial actual, marcado por el dinamismo y la complejidad, comprender las organizaciones como sistemas interrelacionados es esencial. El <i>pensamiento sistémico</i> proporciona una perspectiva holística que permite identificar cómo interactúan las distintas partes de una organización y cómo estas interacciones afectan al conjunto. Esta visión integral facilita la detección de patrones, la anticipación de problemas y la implementación de soluciones sostenibles.
+          .d-flex.bg-marron.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
+            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-38.svg', alt='Texto descriptivo de la imagen')
+            .my-auto.p-4.p-xl-0
+              p.pe-xl-3.mb-0 Paralelamente, la <i>motivación organizacional</i> constituye un factor determinante en el rendimiento y la satisfacción laboral. Un equipo motivado no solo alcanza sus metas con mayor eficacia, sino que también contribuye a un ambiente de trabajo positivo y colaborativo. 
 
-      p.mb-4 <b>Tabla 1.</b> Cuadro comparativo: factores internos y externos en la cultura y ética organizacional
+      h2 Relación entre pensamiento sistémico y motivación organizacional
+      p.mb-4 Integrar el pensamiento sistémico con estrategias de motivación organizacional permite a los líderes diseñar entornos que promuevan el compromiso, la innovación y el bienestar de los empleados. Esta integración ayuda a abordar los problemas organizacionales desde múltiples perspectivas, considerando tanto factores estructurales como emocionales.
+
+      .row.mb-4
+        .col-12.col-xl-7
+          .bg-verde-oscuro.p-4(data-aos="fade-up").text-white
+            p.text-bold.mb-4 Ejemplo práctico:
+            span Un gerente, al aplicar pensamiento sistémico, detecta que la baja productividad no se debe únicamente a una falta de capacitación. Identifica también problemas como la comunicación deficiente entre departamentos y la ausencia de reconocimiento al esfuerzo individual. Al intervenir en estos aspectos de manera articulada, logra mejorar la motivación del equipo y, con ello, el desempeño organizacional.
+        .col-4.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-39.png', alt='Texto que describa la imagen')
+      
+      p.mb-4 <b>Tabla 3.</b>Comparación de enfoques
 
       .tabla-a.mb-4
         table
           thead
             tr
-              th.bg-marron.text-bold.text-center Factor
-              th.bg-marron.text-bold.text-center Tipo
-              th.bg-marron.text-bold.text-center Impacto en la cultura y ética organizacional
+              th.text-bold.bg-marron Pensamiento sistémico
+              th.text-bold.bg-marron Motivación organizacional
           tbody
             tr
-              td.text-bold Estilo de liderazgo 
-              td.text-center Interno
-              td Influye directamente en la coherencia ética y toma de decisiones.
+              td.bg-marron-claro.text-bold Visión integral de la organización como sistema
+              td.bg-marron-claro Impulso interno que guía el comportamiento laboral
             tr
-              td.text-bold Clima laboral
-              td.text-center Interno
-              td Afecta la motivación y el compromiso con los valores de la empresa.
+              td.bg-marron-claro.text-bold Identificación de relaciones y patrones
+              td.bg-marron-claro Fomento del compromiso y la satisfacción
             tr
-              td.text-bold Valores organizacionales
-              td.text-center Interno
-              td Determinan el marco ético que guía las acciones del personal.
+              td.bg-marron-claro.text-bold Anticipación de consecuencias no deseadas
+              td.bg-marron-claro Aumento del rendimiento y del bienestar
             tr
-              td.text-bold Estructura jerárquica
-              td.text-center Interno
-              td Define responsabilidades y canales de comunicación que afectan la ética.
-            tr
-              td.text-bold Recursos humanos
-              td.text-center Interno
-              td Su capacitación y comportamiento modelan la ética diaria.
-            tr
-              td.text-bold Clientes y mercados
-              td.text-center Externo
-              td Presionan a la empresa a responder con prácticas responsables.
-            tr
-              td.text-bold Normativa legal
-              td.text-center Externo
-              td Obliga a cumplir normativas que pueden reforzar la ética organizacional.
-            tr
-              td.text-bold Competencia
-              td.text-center Externo
-              td Exige estándares de comportamiento frente a otras organizaciones.
-            tr
-              td.text-bold Tendencias tecnológicas
-              td.text-center Externo
-              td Impulsa cambios en procesos que pueden afectar prácticas éticas.
-            tr
-              td.text-bold Condiciones económicas
-              td.text-center Externo
-              td Condiciona decisiones estratégicas con implicaciones éticas.
+              td.bg-marron-claro.text-bold Permite decisiones estratégicas más informadas
+              td.bg-marron-claro Mejora del clima laboral y reducción de rotación
 
-      .row.bg-marron.bg-full-width.py-4.mb-5
+      .d-flex.bg-verde.bg-full-width.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
+        img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-40.svg', alt='Texto descriptivo de la imagen')
+        .my-auto.p-4.p-xl-0
+          p.px-4.mb-0 Para los estudiantes de Administración de Empresas, comprender cómo se interrelacionan el pensamiento sistémico y la motivación organizacional es fundamental. Esta combinación de enfoques enriquece su formación académica y los prepara para asumir roles de liderazgo con una visión estratégica, integradora y humana, capaz de responder a los desafíos del mundo empresarial contemporáneo.
+
+      #t_2_1.titulo-segundo(data-aos="flip-up")
+        div.d-flex
+          span.me-3 2.1
+          h2 Pensamiento sistémico en la toma de decisiones
+
+      .row.mb-4
+        .col-10.col-lg-6.col-xl-4.mx-auto.bg-verde.p-4.d-flex(data-aos='fade-up')
+          span El <i>pensamiento sistémico</i> en la toma de decisiones es una competencia esencial para los profesionales de la Administración de Empresas, ya que permite comprender las interrelaciones entre los diferentes componentes de una organización y su entorno. Este enfoque promueve una visión holística que facilita la identificación de patrones, la anticipación de consecuencias y la implementación de soluciones sostenibles.
+        .col-4.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-41.png', alt='Texto que describa la imagen')
+        .col-10.col-lg-6.col-xl-4.mx-auto.bg-azul.p-4.d-flex(data-aos='fade-up')
+          span Al aplicarlo, los líderes pueden analizar cómo las decisiones en un área específica impactan en otras partes de la organización. Por ejemplo, una modificación en el proceso de producción puede afectar la logística, el servicio al cliente y las finanzas. Este entendimiento integral ayuda a evitar soluciones aisladas que podrían generar problemas adicionales en el futuro.
+
+      p.mb-4 Además, el pensamiento sistémico fomenta el desarrollo de habilidades blandas como la empatía, la comunicación efectiva y la colaboración interdisciplinaria, competencias fundamentales para liderar equipos diversos y gestionar proyectos complejos en entornos dinámicos.
+
+      .row.bg-amarillo.p-4.py-xl-0.mb-4(data-aos='fade-up')
+        .col-3.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-42.png', alt='Texto descriptivo de la imagen') 
+        .col-12.col-xl-9.py-4
+          h2 Ejemplo ilustrativo
+          .my-auto
+            p.mb-4 Una empresa enfrenta una disminución en las ventas. En lugar de atribuir el problema únicamente al equipo de ventas, los líderes analizan factores como la calidad del producto, las estrategias de marketing, la satisfacción del cliente y las tendencias del mercado. Esta perspectiva sistémica permite identificar las causas raíz y diseñar intervenciones más efectivas y sostenibles.
+            span El pensamiento sistémico en la toma de decisiones permite a los profesionales abordar los desafíos organizacionales de manera más efectiva, considerando múltiples interdependencias y promoviendo soluciones integrales que contribuyen al éxito y la sostenibilidad de la organización.
+
+      p.mb-4 El pensamiento sistémico en la toma de decisiones es:
+
+      .row.position-relative.mb-5.py-4.bg-fondo-slider.bg-full-width
+        div.px-4.px-md-5.py-md-3
+          SlyderA(tipo="b").bg-white
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Interconexión
+                div.d-flex.mb-2
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 Descripción: Todas las áreas de una organización están relacionadas entre sí. 
+
+                div.d-flex.mb-2
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 Ejemplo: Una decisión de reducir el presupuesto en marketing impacta las ventas, la atención al cliente y la percepción de marca. 
+                div.d-flex.mb-2
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 Impacto: Ayuda a prever consecuencias indirectas y anticipar efectos colaterales.
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-43.png', alt='Texto que describa la imagen')
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Causalidad circular 
+                div.d-flex.mb-2
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 <b>Descripción:</b> Las acciones generan retroalimentación que puede reforzar o debilitar el sistema. 
+
+                div.d-flex.mb-2
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 <b>Ejemplo:</b> La falta de reconocimiento reduce la motivación; la baja motivación reduce la productividad. 
+                div.d-flex.mb-2
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 <b>Impacto:</b> Permite identificar ciclos viciosos o virtuosos y diseñar intervenciones estratégicas.
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-44.png', alt='Texto que describa la imagen')
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Pensamiento a largo plazo 
+                div.d-flex.mb-2
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 <b>Descripción:</b> Considera los efectos sostenidos en el tiempo de una decisión. 
+
+                div.d-flex.mb-2
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 <b>Ejemplo:</b> Invertir en bienestar laboral hoy reduce la rotación de personal en el futuro. 
+                div.d-flex.mb-2
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 <b>Impacto:</b> Fomenta decisiones sostenibles y alineadas con la visión organizacional.
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-45.png', alt='Texto que describa la imagen')
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Cambio de paradigma 
+                div.d-flex.mb-2
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 <b>Descripción:</b> Implica transformar la forma de ver y entender los problemas. 
+
+                div.d-flex.mb-2
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 <b>Ejemplo:</b> En lugar de culpar al equipo de ventas por bajos ingresos, se revisa la estrategia completa de valor. 
+                div.d-flex.mb-2
+                  img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                  p.mb-0 <b>Impacto:</b> Facilita soluciones integrales y transformadoras en lugar de respuestas reactivas.
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-46.png', alt='Texto que describa la imagen')
+
+      #t_2_2.titulo-segundo(data-aos="flip-up")
+        div.d-flex
+          span.me-3 2.2
+          h2 Teorías de la motivación
+
+      .row.bg-fondo-1.bg-full-width.py-4.mb-4
+        div.px-5
+
+          p.mb-4 A continuación, se abordan las principales teorías de la motivación en el contexto organizacional, proporcionando una visión integral sobre su aplicación en la gestión del talento humano.
+          .row.mb-4
+            .col-6.d-none.d-xl-block
+              img(src='@/assets/curso/unidad/img-47.png', alt='Texto descriptivo de la imagen')
+            .col-12.col-xl-6
+              p.mb-4 
+              TarjetaAudio.color-secundario.bg-white.mb-3(
+                texto='Texto descriptivo del audio'
+                tiempo
+                :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+                @audio-hover='mostrarIndicadorTarjetaAudio = false'
+              )
+      p.mb-4 Las teorías de la motivación y su relación con habilidades blandas en contexto organizacional son: 
+      .row.mb-4
+        .col-12.col-lg-7.col-xl-8
+          AcordionA(tipo="b")
+            .div(titulo="Teoría de los dos factores (Herzberg)")
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Habilidad blanda:</b> Empatía 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Aplicación práctica:</b> Un líder que reconoce públicamente los logros de su equipo y se interesa por su bienestar personal. 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Impacto:</b> Mayor satisfacción laboral y reducción de la rotación de personal.
+            .div(titulo="Teoría de la expectativa (Vroom)")
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Habilidad blanda:</b> Comunicación efectiva 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Aplicación práctica:</b> Un jefe de proyectos que explica con claridad los objetivos y cómo los logros individuales impactan en el resultado global. 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Impacto:</b> Incremento del compromiso y desempeño del equipo.
+            .div(titulo="Teoría de la equidad (Adams)")
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Habilidad blanda:</b> Pensamiento crítico 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Aplicación práctica:</b> Un gerente que compara equitativamente salarios y beneficios entre empleados que realizan funciones similares. 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Impacto:</b> Percepción de justicia organizacional y mejora del clima laboral.
+            .div(titulo="Teoría de la autodeterminación (Deci y Ryan)")
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Habilidad blanda:</b> Autonomía y liderazgo personal 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Aplicación práctica:</b> Una organización que permite a sus empleados elegir los proyectos en los que desean participar. 
+              div.d-flex
+                img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
+                p.mb-0 <b>Impacto:</b> Aumento de la motivación intrínseca y creatividad.
+        .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-48.png', alt='Texto que describa la imagen')
+
+      #t_2_3.titulo-segundo(data-aos="flip-up")
+        div.d-flex
+          span.me-3 2.3
+          h2 Ciclo motivacional y desempeño laboral
+
+      p.mb-4 El <i>ciclo motivacional</i> es un proceso dinámico que describe cómo las necesidades humanas influyen en el comportamiento y cómo este se orienta hacia la satisfacción de dichas necesidades. En el contexto organizacional, comprender este ciclo permite a los líderes y gestores diseñar estrategias que fomenten un ambiente laboral propicio para el alto desempeño. Este ciclo consta de cinco etapas interrelacionadas:
+      ImagenInfografica.color-secundario.mb-4.bg-white
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/unidad/img-49.png', alt='Descripción de la imagen')
+        .tarjeta.bg-white.p-4(x='27%' y='60%' numero='+')
+          .h5.mb-2 Equilibrio (Homeostasis) 
+          p El individuo se encuentra en un estado de estabilidad interna.
+        .tarjeta.bg-white.p-4(x='39%' y='23%' numero='+')
+          .h5.mb-2 Estimulación
+          p Aparece un estímulo que rompe el equilibrio, generando una necesidad.
+        .tarjeta.bg-white.p-4(x='51%' y='60.4%' numero='+')
+          .h5.mb-2 Necesidad
+          p Se identifica una carencia o deseo que motive al individuo a actuar.
+        .tarjeta.bg-white.p-4(x='63%' y='23%' numero='+')
+          .h5.mb-2 Comportamiento
+          p Se emprenden acciones dirigidas a satisfacer la necesidad.
+        .tarjeta.bg-white.p-4(x='76%' y='60.4%' numero='+')
+          .h5.mb-2 Satisfacción
+          p Alcanzar el objetivo restablece el equilibrio inicial.
+
+      .d-flex.bg-verde-oscuro.bg-full-width.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
+        img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-50.svg', alt='Texto descriptivo de la imagen')
+        .my-auto.p-4.p-xl-0
+          p.pe-xl-3.mb-0.text-white En el ámbito laboral, este ciclo se manifiesta cuando, por ejemplo, un empleado percibe la <b>necesidad de reconocimiento</b> (<i>estimulación</i>), lo que lo impulsa a <b>mejorar su desempeño</b> (<i>comportamiento</i>) para obtener <b>elogios o recompensas</b> (<i>satisfacción</i>).
+
+      .row.mb-4
+        .col-5.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-51.png', alt='Texto que describa la imagen')
+        .col-12.col-xl-7
+          .bg-verde.p-4(data-aos='fade-up')
+            span El <i>desempeño laboral</i>, entendido como la eficacia con la que un empleado cumple con sus responsabilidades, está estrechamente vinculado al ciclo motivacional. Cuando las organizaciones reconocen y satisfacen las necesidades de sus colaboradores, estos se sienten motivados, lo que se traduce en un mayor compromiso y productividad.
+
+      .row.mb-4
+        .col-12.col-xl-9 
+          h2 Ejemplo práctico:
+          .bg-azul.p-4(data-aos='fade-up').mb-4
+            span Implementar programas de desarrollo profesional puede satisfacer la necesidad de crecimiento personal de los empleados, motivándolos a adquirir nuevas habilidades y aplicar conocimientos innovadores en sus tareas diarias.
+          span Es esencial que los líderes desarrollen <b>habilidades blandas</b> como la empatía y la comunicación efectiva para identificar las necesidades de su equipo y proporcionar los estímulos adecuados. Así, se crea un entorno laboral donde la motivación y el alto desempeño se retroalimentan positivamente.
+        .col-3.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-52.png', alt='Texto que describa la imagen')
+
+      .row.bg-marron.bg-full-width.py-4.mb-4
         div.px-5.pb-md-3.py-4.d-flex
           .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
-            h2.mb-4.pb-2.me-auto Entorno laboral, equipos de trabajo y estrategias en crisis
-            p.mb-5(data-aos="fade-up") Se invita a leer el documento Entorno laboral, equipos de trabajo y estrategias en crisis, donde se aborda la gestión del entorno laboral en contextos críticos, la formación de equipos efectivos, la diversidad organizacional y el liderazgo en momentos de crisis.
-            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+            h2.mb-4.pb-2.me-auto Estrategias de compromiso y mejora organizacional
+            p.mb-5(data-aos="fade-up") Se invita a leer el documento Estrategias de compromiso y mejora organizacional, donde se aborda la importancia de fomentar el compromiso y la motivación de los empleados como base para la sostenibilidad y eficiencia empresarial.
+            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_estrategias-compromiso.pdf')" target="_blank")
               img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
-              p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Entorno laboral, equipos de trabajo y estrategias en crisis
+              p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Estrategias de compromiso y mejora organizacional
           .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
-            img.h-100(src='@/assets/curso/unidad/img-38.png', alt='Texto que describa la imagen')
-
-      .bg-full-width.border-top.actividad(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important')
-        .p-4.p-md-5
-          #Actividad
-            <Actividad :cuestionario='cuestionario'/>
-
-      .bg-full-width.border-top-9-azul
-        .px-5.pt-5.pb-0
-          h2 Material complementario
-          .row
-            .col-12.col-md-6.col-lg-8
-              p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://doi.org/10.35381/racji.v10i18.4370") Liderazgo político en la transparencia administrativa: desafíos éticos y la corrupción estructural en América Latina
-              p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://doi.org/10.22201/fcpys.2448492xe.2021.242.76524") Liderazgo político para un mundo nuevo: cambios globales y pandemia de la Covid-19
-              p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://es.wikipedia.org/wiki/Formas_de_poder_seg%C3%BAn_French_y_Raven") Formas de poder según French y Raven
-              p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://cadenaser.com/nacional/2024/12/17/alberto-gonzalez-pascual-experto-en-liderazgo-un-buen-jefe-sobreestima-a-sus-trabajadores-cadena-ser/") Un buen jefe sobreestima a sus trabajadores
-              p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://www.sinnaps.com/blog-gestion-proyectos/lideres-influencian-equipo") ¿Cómo los líderes influencian en el equipo?
-              p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://mexico.unir.net/noticias/comunicacion-mercadotecnia/que-es-liderazgo-politico/") ¿Qué es el liderazgo político? Importancia y claves
-              p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://canvas-for-you.com/liderazgo-etico-la-clave-para-fortalecer-culturas-organizacionales/") Liderazgo ético: la clave para fortalecer culturas organizacionales
-              p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://blog.kellyservices.com.mx/el-impacto-del-liderazgo-etico-en-las-organizaciones") El impacto del liderazgo ético en las organizaciones
-              p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://www.esade.edu/beyond/es/que-es-liderazgo-etico-caracteristicas-ejemplos/") ¿Qué es el liderazgo ético? Características y ejemplos
-              p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=BcMFn7bvkHM") [Vídeo] Tipos de liderazgo
-            .col-12.col-md-6.col-lg-3
-              figure
-                img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
+            img.h-100(src='@/assets/curso/unidad/img-53.png', alt='Texto que describa la imagen')
 
       p
 

@@ -1,1 +1,1 @@
-module.exports = 'Teorías y estilos de liderazgo'
+module.exports = 'Habilidades Básicas y Avanzadas de liderazgo'

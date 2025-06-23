@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad: 'Teorías y estilos de liderazgo',
+    numeroUnidad: '3',
+    tituloUnidad: 'Habilidades Básicas y Avanzadas de liderazgo',
   },
   menuPrincipal: {
     menu: [
@@ -15,28 +15,25 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Teorías y estilos de liderazgo',
+        titulo: 'Fundamentos del liderazgo estratégico',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo:
-              'Principales teorías del liderazgo: rasgos, conductual, situacional y transformacional',
+            titulo: 'Habilidades básicas y avanzadas de liderazgo',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo:
-              'Estilos de liderazgo: autocrático, democrático, liberal, transaccional y transformador',
+            titulo: 'Liderazgo transformador y ético',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo:
-              'Liderazgo ético: importancia de la integridad en el ejercicio del liderazgo',
+            titulo: 'Liderazgo en contextos organizacionales sostenibles',
             hash: 't_1_3',
           },
         ],
@@ -45,27 +42,25 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Poder, autoridad y política en el liderazgo',
+        titulo: 'Pensamiento sistémico y motivación organizacional',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo:
-              'Conceptos de poder, autoridad y su aplicación en las organizaciones',
+            titulo: 'Pensamiento sistémico en la toma de decisiones',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Influencia y manejo político en equipos de trabajo  ',
+            titulo: 'Teorías de la motivación',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo:
-              'El papel del liderazgo en la construcción de cultura organizacional y ética empresarial',
+            titulo: 'Ciclo motivacional y desempeño laboral',
             hash: 't_2_3',
           },
         ],
@@ -208,142 +203,152 @@ export default {
     },
     {
       referencia:
-        'Chico, K., et al. (2023). El liderazgo ético y la responsabilidad social corporativa en el desempeño de las empresas bananeras ecuatorianas. Universidad, Ciencia y Tecnología, 27(119), 8-17.',
-      link: 'https://ve.scielo.org/pdf/uct/v27n119/2542-3401-uct-27-119-8.pdf',
+        'Rodríguez-Ponce, E. (2007). Estilos de liderazgo, toma de decisiones estratégicas y eficacia: un estudio empírico en pequeñas y medianas empresas. Interciencia, 32(8), 522–528.',
+      link: 'https://www.redalyc.org/articulo.oa?id=33932805',
     },
     {
       referencia:
-        'Cruz Soto, L. A. (2013). El concepto de poder en la administración. Contaduría y Administración, 58(4), 39-57.',
-      link: 'https://www.redalyc.org/pdf/395/39528277003.pdf',
+        'Paz, M., Sánchez, R., & Sánchez, L. (2021). Principios del liderazgo ético en directivos de la Universidad de La Guajira. Revista de Ciencias Sociales, 27(4), 190–205.',
+      link: 'https://www.redalyc.org/articulo.oa?id=28069360014',
     },
     {
       referencia:
-        'Deloitte. (2020). Liderazgo resiliente en tiempos de crisis.',
+        'Ormaza Cevallos, M. G., & Lozano Jaramillo, G. A. (2022). Liderazgo transformacional: un enfoque efectivo para el rendimiento laboral de las pymes ecuatorianas. Revista Científica Conocimiento y Sociedad, 28(1), 45–60.',
+      link: 'https://dialnet.unirioja.es/descarga/articulo/9378092.pdf',
+    },
+    {
+      referencia:
+        'Huamán-Gil, L. A. (2024). Impacto del liderazgo estratégico en el compromiso organizacional. Revista Arbitrada Interdisciplinaria KOINONIA, 9(18), 4–16.',
+      link: 'https://ve.scielo.org/pdf/raiko/v9n18/2542-3088-raiko-9-18-4.pdf',
+    },
+    {
+      referencia:
+        'Vázquez Mendoza, J. H., Vázquez Martínez, N., & Vázquez Martínez, R. A. (2023). El rol del liderazgo sistémico en instituciones de educación superior en México. Ciencia Latina Revista Científica Multidisciplinar, 7(5), 7654–7665.',
+      link: 'https://dialnet.unirioja.es/descarga/articulo/9482038.pdf',
+    },
+    {
+      referencia:
+        'Bellido-Cabrera, J., Valiente-Saldaña, Y. M., Alvites-Gasco, A. M., & Diaz-Gómez, C. (2025). Reconocimiento laboral y compromiso organizacional en una empresa agroindustrial peruana. Revista Arbitrada Interdisciplinaria KOINONIA, 10(19), 202–220.',
       link:
-        'https://www2.deloitte.com/content/dam/Deloitte/cr/Documents/about-deloitte/media/Deloitte-Liderazgo-resiliente-en-tiempos-de-crisis.pdf',
+        'https://ve.scielo.org/pdf/raiko/v10n19/2542-3088-raiko-10-19-202.pdf',
     },
     {
       referencia:
-        'Universidad Javeriana Cali. (2019). La Responsabilidad Social Empresarial como herramienta para la gestión de conflictos con comunidades rurales.',
+        'Suárez Pineda, J. A., & Garzón Daza, C. G. (2019). Competitividad y sostenibilidad organizacional: una estrategia para el fortalecimiento empresarial. En J. Cortés Cabrera (Ed.), La administración de empresas: una perspectiva desde el profesional mateísta hacia el futuro (pp. 85–106). Editorial Fundación Universitaria San Mateo.',
+      link: 'https://books.scielo.org/id/955tc/pdf/cortes-9786289572506-05.pdf',
+    },
+    {
+      referencia:
+        'Madero, S. (2019). La motivación extrínseca e intrínseca y su relación con la productividad laboral. Espacios, 45(3), 36.',
       link:
-        'https://www.javerianacali.edu.co/sites/default/files/2022-04/La%20Responsabilidad%20Social%20Empresarial%20como%20herramienta%20para%20la%20gesti%C3%B3n%20de%20conflictos%20con%20comunidades%20rurales.pdf',
+        'https://ve.scielo.org/pdf/espacios/v45n3/0798-1015-espacios-45-03-36.pdf',
     },
     {
       referencia:
-        'Campos, L. G., & Campos, L. G. (2020). Importancia de los estilos de liderazgo: un abordaje de revisión teórica. Apuntes Universitarios, 10(1), 155–174.',
-      link: 'https://www.researchgate.net/publication/343986014',
-    },
-    {
-      referencia:
-        'González, J. A., & Rodríguez, M. (2021). Teorías de liderazgo en organizaciones: Clasificación paradigmática y perspectivas de investigación. Revista de Ciencias Sociales, 27(1), 45–60.',
-      link: 'https://www.redalyc.org/articulo.oa?id=10475688008',
-    },
-    {
-      referencia:
-        'Villar-Vargas, M., & Araya-Castillo, L. (2019). Consistencia entre el enfoque de liderazgo y los estilos de liderar: clave para la transformación y el cambio. Pensamiento & Gestión, (46), 1–20.',
-      link: 'https://www.redalyc.org/articulo.oa?id=64664303008',
+        'Macías, J., & Vanga, M. (2021). Motivación y productividad laboral en colaboradores de una cooperativa de ahorro y crédito. Revista Arbitrada Interdisciplinaria KOINONIA, 9(18), 4–16.',
+      link: 'https://ve.scielo.org/pdf/raiko/v9n18/2542-3088-raiko-9-18-4.pdf',
     },
   ],
   glosario: [
     {
       termino: 'Adaptabilidad',
       significado:
-        'Capacidad de ajustarse eficazmente a los cambios en el entorno laboral o social.',
+        'Capacidad de una persona u organización para ajustarse con eficacia a cambios en el entorno o condiciones de trabajo.',
     },
     {
-      termino: 'Autoridad',
+      termino: 'Autonomía',
       significado:
-        'Poder legítimo conferido a una persona para tomar decisiones y dirigir las acciones de otros.',
+        'Habilidad para tomar decisiones y ejecutar tareas sin supervisión constante, asumiendo responsabilidad sobre los resultados.',
     },
     {
-      termino: 'Cohesión',
+      termino: 'Clima organizacional',
       significado:
-        'Unión y sentido de pertenencia que mantienen a un grupo trabajando de manera armoniosa.',
+        'Ambiente psicológico y emocional percibido por los empleados dentro de una empresa, influenciado por la cultura y las relaciones laborales.',
     },
     {
-      termino: 'Comunicación',
+      termino: 'Comunicación efectiva',
       significado:
-        'Proceso mediante el cual se transmite información, ideas y sentimientos entre individuos o grupos.',
+        'Transmisión clara, coherente y oportuna de información que permite la comprensión y alineación entre los miembros de una organización.',
     },
     {
-      termino: 'Conflicto',
+      termino: 'Compromiso organizacional',
       significado:
-        'Situación en la que dos o más partes tienen intereses, valores o creencias incompatibles.',
+        'Grado de identificación, implicación y lealtad que un empleado siente hacia la empresa en la que trabaja.',
     },
     {
-      termino: 'Diversidad',
+      termino: 'Competencias',
       significado:
-        'Presencia de diferencias individuales en un grupo, ya sea de cultura, género, edad o habilidades.',
+        'Conjunto de conocimientos, habilidades y actitudes necesarias para desempeñar un rol laboral de manera eficiente.',
+    },
+    {
+      termino: 'Desarrollo profesional',
+      significado:
+        'Proceso continuo de adquisición de habilidades y conocimientos que fortalecen el desempeño y crecimiento de un empleado en su carrera.',
+    },
+    {
+      termino: 'Eficiencia',
+      significado:
+        'Capacidad para lograr los objetivos establecidos utilizando el mínimo de recursos posible, sin sacrificar la calidad.',
     },
     {
       termino: 'Empatía',
       significado:
-        'Capacidad para comprender y compartir los sentimientos de otra persona.',
+        'Capacidad de comprender y compartir las emociones, ideas o puntos de vista de otra persona en un entorno laboral.',
     },
     {
-      termino: 'Ética',
+      termino: 'Evaluación del desempeño',
       significado:
-        'Conjunto de principios y valores que guían el comportamiento correcto y justo de las personas.',
+        'Proceso sistemático para medir y valorar el cumplimiento de las funciones asignadas a un empleado dentro de una organización.',
     },
     {
-      termino: 'Equipo de trabajo',
+      termino: 'Feedback',
       significado:
-        'Conjunto de personas que colaboran entre sí para alcanzar objetivos comunes.',
+        'Retroalimentación constructiva que se ofrece con el fin de mejorar el desempeño individual o colectivo en el contexto laboral.',
     },
     {
-      termino: 'Gestión',
+      termino: 'Funciones',
       significado:
-        'Conjunto de actividades destinadas a planificar, organizar, dirigir y controlar los recursos de una organización.',
+        'Tareas específicas asignadas a un puesto de trabajo que definen su contribución al logro de los objetivos organizacionales.',
     },
     {
-      termino: 'Influencia',
+      termino: 'Gestión del talento humano',
       significado:
-        'Capacidad de afectar el pensamiento, las decisiones o las acciones de otros.',
+        'Conjunto de prácticas destinadas a atraer, desarrollar, motivar y retener a los colaboradores dentro de una organización.',
+    },
+    {
+      termino: 'Indicadores de gestión',
+      significado:
+        'Herramientas cuantitativas o cualitativas que permiten medir el desempeño y los resultados en áreas clave de una empresa.',
     },
     {
       termino: 'Innovación',
       significado:
-        'Introducción de nuevas ideas, métodos o productos para mejorar procesos u ofrecer valor agregado.',
+        'Implementación de nuevas ideas, procesos o productos que generan valor y mejoran la competitividad organizacional.',
     },
     {
       termino: 'Liderazgo',
       significado:
-        'Habilidad para guiar, motivar y coordinar a un grupo hacia el logro de metas comunes.',
+        'Capacidad para influir, motivar y guiar a un grupo hacia el logro de metas compartidas, promoviendo un entorno de confianza.',
     },
     {
-      termino: 'Mediación',
+      termino: 'Manual de funciones',
       significado:
-        'Proceso de resolución de conflictos en el cual una tercera parte neutral ayuda a encontrar soluciones aceptables para todos.',
+        'Documento que especifica las tareas, responsabilidades y perfil requerido para cada cargo dentro de una organización.',
     },
     {
-      termino: 'Organización',
+      termino: 'Motivación',
       significado:
-        'Sistema estructurado de personas que trabajan en conjunto para alcanzar objetivos definidos.',
+        'Impulso interno o externo que lleva a una persona a actuar con energía y dirección hacia un objetivo determinado.',
     },
     {
-      termino: 'Poder',
+      termino: 'Retroalimentación',
       significado:
-        'Capacidad de una persona o grupo para imponer su voluntad sobre otros, con o sin su consentimiento.',
+        'Información que se entrega a un empleado sobre su desempeño con el fin de reforzar conductas positivas o corregir desviaciones.',
     },
     {
-      termino: 'Responsabilidad social',
+      termino: 'Rol',
       significado:
-        'Compromiso de una organización para actuar de manera ética y contribuir al desarrollo económico sostenible.',
-    },
-    {
-      termino: 'Resiliencia',
-      significado:
-        'Habilidad de una organización o individuo para recuperarse frente a situaciones adversas.',
-    },
-    {
-      termino: 'Sostenibilidad',
-      significado:
-        'Capacidad de satisfacer las necesidades del presente sin comprometer los recursos de futuras generaciones.',
-    },
-    {
-      termino: 'Toma de decisiones',
-      significado:
-        'Proceso mediante el cual se elige entre varias alternativas la opción más adecuada para resolver un problema o alcanzar un objetivo.',
+        'Papel o función que desempeña una persona dentro de un grupo u organización, incluyendo sus obligaciones y expectativas.',
     },
   ],
 }

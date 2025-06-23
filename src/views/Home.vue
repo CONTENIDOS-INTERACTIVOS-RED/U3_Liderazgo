@@ -22,7 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La Unidad 1 aborda el liderazgo desde una perspectiva integral, enfocándose en teorías, estilos, poder, autoridad, política, cultura organizacional y estrategias para enfrentar crisis. Se estudian estilos como el transformacional y ético, y se destacan habilidades blandas necesarias para liderar eficazmente en entornos cambiantes. Se analizan también la influencia en equipos, la gestión del conflicto y la responsabilidad social. El liderazgo se presenta como clave para la sostenibilidad, resiliencia y transformación organizacional, formando profesionales capaces de guiar con ética, inclusión y visión estratégica hacia metas colectivas.
+              p.descripcion.mb-4 La Unidad 3 aborda habilidades básicas y avanzadas del liderazgo estratégico, transformador, ético y sostenible. Se enfatiza el desarrollo de competencias como comunicación, inteligencia emocional, pensamiento sistémico y motivación, esenciales para enfrentar entornos organizacionales complejos. También se estudian teorías motivacionales y el ciclo motivacional, junto a estrategias para fomentar el compromiso, permanencia y desempeño laboral. Se propone elaborar un manual operativo de funciones para definir responsabilidades. La unidad promueve una visión ética e integral del liderazgo que impulsa el bienestar, la sostenibilidad y la eficacia organizacional.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
