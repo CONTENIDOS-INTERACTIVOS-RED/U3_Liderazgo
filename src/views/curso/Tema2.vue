@@ -161,9 +161,9 @@
             .col-12.col-xl-6
               p.mb-4 
               TarjetaAudio.color-secundario.bg-white.mb-3(
-                texto='Texto descriptivo del audio'
+                texto='Teorías de la motivación'
                 tiempo
-                :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('../../assets/componentes/audios/Teorías_de_la_motivación_mezcla.mp3')"
                 @audio-hover='mostrarIndicadorTarjetaAudio = false'
               )
       p.mb-4 Las teorías de la motivación y su relación con habilidades blandas en contexto organizacional son: 
